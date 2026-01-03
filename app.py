@@ -80,3 +80,4 @@ if uploaded_file is not None:
     st.subheader("📊 Object Count")
     for k, v in counts.items():
         st.write(f"**{k}** : {v}")
+
